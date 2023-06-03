@@ -13,7 +13,7 @@ import net.minecraft.world.World;
 
 public class AirHoe extends HoeItem {
     public AirHoe(ToolMaterial material) {
-        super(material, 15, new Settings().group(ItemGroup.TOOLS).maxCount(1).maxDamage(980).
+        super(material, 15, -2.8F, new Settings().group(ItemGroup.TOOLS).maxCount(1).maxDamage(980).
                 rarity(Rarity.EPIC));
     }
 

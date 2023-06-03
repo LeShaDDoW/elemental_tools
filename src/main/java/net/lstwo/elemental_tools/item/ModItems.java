@@ -1,6 +1,5 @@
 package net.lstwo.elemental_tools.item;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.lstwo.elemental_tools.FullItem;
 import net.lstwo.elemental_tools.item.axe.AirAxe;
 import net.lstwo.elemental_tools.item.axe.EarthAxe;
@@ -50,7 +49,7 @@ public class ModItems {
     public static final Item AIR_HOE = createCustomItem("air_hoe", new AirHoe(ToolMaterials.DIAMOND));
 
 
-    public static Item createItem(String name, FabricItemSettings itemSettings) {
+    public static Item createItem(String name, Item.Settings itemSettings) {
         Item item = new Item(itemSettings);
         itemList.add(new FullItem(item, name));
         return item;
