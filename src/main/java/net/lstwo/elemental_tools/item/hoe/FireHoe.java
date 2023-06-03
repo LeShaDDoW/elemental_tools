@@ -3,7 +3,7 @@ package net.lstwo.elemental_tools.item.hoe;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.inventory.SimpleInventory;
+import net.minecraft.inventory.BasicInventory;
 import net.minecraft.item.*;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.recipe.RecipeType;
@@ -21,7 +21,7 @@ import java.util.Optional;
 
 public class FireHoe extends HoeItem {
     public FireHoe(ToolMaterial material) {
-        super(material, 13, -2.5F, new Settings().group(ItemGroup.TOOLS).maxCount(1).maxDamage(986).
+        super(material, 13, new Settings().group(ItemGroup.TOOLS).maxCount(1).maxDamage(986).
                 rarity(Rarity.RARE));
     }
 
@@ -56,7 +56,7 @@ public class FireHoe extends HoeItem {
     }
 
     private ItemStack getSmeltedResult(World world, ItemStack itemStack) {
-        Optional<SmeltingRecipe> recipe = world.getRecipeManager().getFirstMatch(RecipeType.SMELTING, new SimpleInventory(itemStack), world);
+        Optional<SmeltingRecipe> recipe = world.getRecipeManager().getFirstMatch(RecipeType.SMELTING, new BasicInventory(itemStack), world);
         if (recipe.isPresent()) {
             ItemStack result = recipe.get().getOutput().copy();
             if (result.getItem() instanceof BlockItem) {

@@ -23,10 +23,10 @@ public class EarthAxe extends AxeItem {
     }
 
     @Override
-    public float getMiningSpeedMultiplier(ItemStack stack, BlockState state) {
+    public float getMiningSpeed(ItemStack stack, BlockState state) {
         Block block = state.getBlock();
         if (block == Blocks.OAK_PLANKS || block == Blocks.SPRUCE_PLANKS || block == Blocks.DARK_OAK_PLANKS || block == Blocks.BIRCH_PLANKS ||
-                block == Blocks.ACACIA_PLANKS || block == Blocks.JUNGLE_PLANKS || block == Blocks.CRIMSON_PLANKS || block == Blocks.WARPED_PLANKS
+                block == Blocks.ACACIA_PLANKS || block == Blocks.JUNGLE_PLANKS
                 || block == Blocks.DIRT || block == Blocks.GRASS_BLOCK) {
             return INSTANT_BREAK_SPEED;
         }

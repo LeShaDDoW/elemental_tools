@@ -1,143 +1,115 @@
-[19:56:23] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.16.5 with Fabric Loader 0.14.21
-[19:56:24] [main/INFO] (FabricLoader) Loading 49 mods:
-	- elemental_tools 1.1-1.16.5
-	- fabric 0.42.0+1.16
-	- fabric-api-base 0.4.0+3cc0f0907d
-	- fabric-api-lookup-api-v1 1.3.1+3cc0f0907d
-	- fabric-biome-api-v1 3.1.13+3cc0f0907d
-	- fabric-blockrenderlayer-v1 1.1.6+3cc0f0907d
-	- fabric-command-api-v1 1.1.3+3cc0f0907d
-	- fabric-commands-v0 0.2.3+3cc0f0907d
-	- fabric-containers-v0 0.1.12+3cc0f0907d
-	- fabric-content-registries-v0 0.2.5+3cc0f0907d
-	- fabric-crash-report-info-v1 0.1.4+3cc0f0907d
-	- fabric-dimensions-v1 2.0.8+3cc0f0907d
-	- fabric-entity-events-v1 1.2.4+3cc0f0907d
-	- fabric-events-interaction-v0 0.4.5+3cc0f0907d
-	- fabric-events-lifecycle-v0 0.2.2+3cc0f0907d
-	- fabric-game-rule-api-v1 1.0.7+3cc0f0907d
-	- fabric-item-api-v1 1.2.2+3cc0f0907d
-	- fabric-item-groups-v0 0.3.1+3cc0f0907d
-	- fabric-key-binding-api-v1 1.0.5+3cc0f0907d
-	- fabric-keybindings-v0 0.2.2+3cc0f0907d
-	- fabric-lifecycle-events-v1 1.2.2+3cc0f0907d
-	- fabric-loot-tables-v1 1.0.3+3cc0f0907d
-	- fabric-mining-levels-v0 0.1.4+3cc0f0907d
-	- fabric-models-v0 0.3.1+3cc0f0907d
-	- fabric-networking-api-v1 1.0.5+3cc0f0907d
-	- fabric-networking-blockentity-v0 0.2.9+3cc0f0907d
-	- fabric-networking-v0 0.3.3+3cc0f0907d
-	- fabric-object-builder-api-v1 1.9.6+3cc0f0907d
-	- fabric-object-builders-v0 0.7.3+3cc0f0907d
-	- fabric-particles-v1 0.2.5+3cc0f0907d
-	- fabric-registry-sync-v0 0.7.6+3cc0f0907d
-	- fabric-renderer-api-v1 0.4.5+3cc0f0907d
-	- fabric-renderer-indigo 0.4.5+3cc0f0907d
-	- fabric-renderer-registries-v1 2.3.1+3cc0f0907d
-	- fabric-rendering-data-attachment-v1 0.1.6+3cc0f0907d
-	- fabric-rendering-fluids-v1 0.1.15+3cc0f0907d
-	- fabric-rendering-v0 1.1.3+3cc0f0907d
-	- fabric-rendering-v1 1.6.1+3cc0f0907d
-	- fabric-resource-loader-v0 0.4.8+3cc0f0907d
-	- fabric-screen-api-v1 1.0.1+3cc0f0907d
-	- fabric-screen-handler-api-v1 1.1.6+3cc0f0907d
-	- fabric-structure-api-v1 1.1.12+3cc0f0907d
-	- fabric-tag-extensions-v0 1.1.2+3cc0f0907d
-	- fabric-textures-v0 1.0.7+3cc0f0907d
-	- fabric-tool-attribute-api-v1 1.2.8+3cc0f0907d
-	- fabric-transfer-api-v1 1.5.0+3cc0f0907d
+[20:26:42] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.14.4 with Fabric Loader 0.14.21
+[20:26:42] [main/INFO] (FabricLoader) Loading 38 mods:
+	- elemental_tools 1.1-1.14.3
+	- fabric 0.28.5+1.14
+	- fabric-api-base 0.1.2+de26dc4942
+	- fabric-biomes-v1 0.1.2+4ea4772942
+	- fabric-command-api-v1 1.0.2+4ea4772942
+	- fabric-commands-v0 0.2.1+4ea4772942
+	- fabric-containers-v0 0.1.4+4ea4772942
+	- fabric-content-registries-v0 0.1.3+4ea4772942
+	- fabric-crash-report-info-v1 0.1.3+4ea4772942
+	- fabric-dimensions-v1 0.1.2+4ea4772942
+	- fabric-events-interaction-v0 0.4.1+4ea4772942
+	- fabric-events-lifecycle-v0 0.2.1+4ea4772942
+	- fabric-item-api-v1 1.1.1+4ea4772942
+	- fabric-item-groups-v0 0.2.1+4ea4772942
+	- fabric-key-binding-api-v1 1.0.2+4ea4772942
+	- fabric-keybindings-v0 0.2.1+4ea4772942
+	- fabric-lifecycle-events-v1 1.2.1+4ea4772942
+	- fabric-loot-tables-v1 0.1.2+4ea4772942
+	- fabric-mining-levels-v0 0.1.3+4ea4772942
+	- fabric-models-v0 0.1.1+4ea4772942
+	- fabric-networking-api-v1 1.0.1+4ea4772942
+	- fabric-networking-blockentity-v0 0.2.2+4ea4772942
+	- fabric-networking-v0 0.2.1+4ea4772942
+	- fabric-object-builder-api-v1 1.0.1+4ea4772942
+	- fabric-object-builders-v0 0.3.1+4ea4772942
+	- fabric-particles-v1 0.2.2+4ea4772942
+	- fabric-registry-sync-v0 0.2.4+4ea4772942
+	- fabric-renderer-api-v1 0.1.2+4ea4772942
+	- fabric-renderer-indigo 0.1.16+4ea4772942
+	- fabric-rendering-data-attachment-v1 0.1.3+4ea4772942
+	- fabric-rendering-fluids-v1 0.1.4+4ea4772942
+	- fabric-rendering-v0 0.1.3+4ea4772942
+	- fabric-resource-loader-v0 0.1.5+4ea4772942
+	- fabric-tag-extensions-v0 0.1.4+4ea4772942
+	- fabric-textures-v0 0.1.5+4ea4772942
 	- fabricloader 0.14.21
 	- java 17
-	- minecraft 1.16.5
-[19:56:24] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/LeSha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[19:56:24] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[19:56:32] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:56:32] [main/ERROR] (Minecraft) Failed to verify authentication
-com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:125) ~[authlib-2.1.28.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:94) ~[authlib-2.1.28.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:40) ~[authlib-2.1.28.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createSocialInteractionsService(YggdrasilAuthenticationService.java:152) ~[authlib-2.1.28.jar:?]
-	at net.minecraft.client.MinecraftClient.method_31382(MinecraftClient.java:625) [minecraft-merged-project-root-1.16.5-net.fabricmc.yarn.1_16_5.1.16.5+build.10-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:409) [minecraft-merged-project-root-1.16.5-net.fabricmc.yarn.1_16_5.1.16.5+build.10-v2.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) [minecraft-merged-project-root-1.16.5-net.fabricmc.yarn.1_16_5.1.16.5+build.10-v2.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) [fabric-loader-0.14.21.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.21.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.21.jar:?]
-	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: https://api.minecraftservices.com/privileges
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1997) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
-	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-2.1.28.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:104) ~[authlib-2.1.28.jar:?]
-	... 10 more
-[19:56:32] [main/INFO] (Minecraft) Setting user: Player943
-[19:56:32] [main/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[19:56:33] [main/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
-[19:56:37] [main/INFO] (Minecraft) Narrator library for x64 successfully loaded
-[19:56:37] [main/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Game Rule API (v1), Fabric Entity Events (v1), elemental_tools, Fabric Object Builder API (v1), Fabric Models (v0), Fabric Mining Levels (v0), Fabric Renderer - Indigo, Fabric Events Lifecycle (v0), Fabric Tool Attribute API (v1), Fabric API Lookup API (v1), Fabric Renderer API (v1), Fabric Key Bindings (v0), Fabric Rendering (v1), Fabric Renderer Registries (v1), Fabric Key Binding API (v1), Fabric Command API (v1), Fabric Particles (v1), Fabric Networking Block Entity (v0), Fabric Item API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Containers (v0), Fabric Registry Sync (v0), Fabric Screen Handler API (v1), Fabric Dimensions API (v1), Fabric Structure API (v1), Fabric Content Registries (v0), Fabric API, Fabric API Base, Fabric Commands (v0), Fabric Networking (v0), Fabric Object Builders (v0), Fabric Loot Tables (v1), Fabric Item Groups (v0), Fabric Networking API (v1), Fabric Resource Loader (v0), Fabric Biome API (v1), Fabric Rendering (v0), Fabric Loader, Fabric Rendering Data Attachment (v1), Fabric Events Interaction (v0), Fabric Screen API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Tag Extensions (v0), Fabric Lifecycle Events (v1), Fabric Crash Report Info (v1), Fabric Rendering Fluids (v1))
-[19:56:38] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[19:56:39] [main/INFO] (Minecraft) OpenAL initialized.
-[19:56:39] [main/INFO] (Minecraft) Sound engine started
-[19:56:39] [main/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[19:56:39] [main/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[19:56:39] [main/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[19:56:39] [main/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[19:56:39] [main/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[19:56:39] [main/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[19:56:39] [main/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19:56:40] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[19:56:40] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19:56:40] [main/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[19:56:44] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:56:44] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:56:44] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:56:44] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:56:44] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:56:44] [main/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (elemental_tools, Fabric Tool Attribute API (v1))
-[19:56:44] [main/INFO] (Minecraft) Loaded 7 recipes
-[19:56:44] [main/INFO] (Minecraft) Loaded 927 advancements
-[19:56:44] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 79 new biomes in 3.384 ms
-[19:56:46] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:56:46] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.16.5
-[19:56:46] [Server thread/INFO] (Minecraft) Generating keypair
-[19:56:46] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[19:56:47] [main/INFO] (Minecraft) Preparing spawn area: 0%
-[19:56:47] [main/INFO] (Minecraft) Preparing spawn area: 0%
-[19:56:47] [main/INFO] (Minecraft) Preparing spawn area: 35%
-[19:56:47] [main/INFO] (Minecraft) Time elapsed: 1271 ms
-[19:56:48] [Server thread/INFO] (Minecraft) Changing view distance to 11, from 10
-[19:56:49] [Server thread/INFO] (Minecraft) Player943[local:E:edf9113c] logged in with entity id 156 at (-195.49483636716275, 75.0, -245.30000001192093)
-[19:56:49] [Server thread/INFO] (Minecraft) Player943 joined the game
-[19:56:49] [Server thread/INFO] (Minecraft) Player943 has made the advancement [Diamonds!]
-[19:56:49] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[19:56:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19:56:49] [main/INFO] (Minecraft) [CHAT] Player943 has made the advancement [Diamonds!]
-[19:56:49] [main/INFO] (Minecraft) Loaded 45 advancements
-[19:56:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19:56:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19:57:02] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[19:57:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19:57:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19:57:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:04:39] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:04:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:04:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:04:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:04:40] [Server thread/INFO] (Minecraft) Player943 lost connection: Disconnected
-[20:04:40] [Server thread/INFO] (Minecraft) Player943 left the game
-[20:04:40] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[20:04:40] [Server thread/INFO] (Minecraft) Stopping server
-[20:04:40] [Server thread/INFO] (Minecraft) Saving players
-[20:04:40] [Server thread/INFO] (Minecraft) Saving worlds
-[20:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:04:40] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
-[20:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:04:40] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:04:40] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:04:40] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
-[20:04:40] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:04:40] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:04:41] [main/INFO] (Minecraft) Stopping!
+	- minecraft 1.14.4
+[20:26:42] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/LeSha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[20:26:42] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[20:26:43] [main/INFO] (Minecraft) Setting user: Player878
+[20:26:48] [main/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[20:26:48] [main/WARN] (Minecraft) Skipping bad option: lastServer:
+[20:26:49] [main/INFO] (Minecraft) LWJGL Version: 3.2.2 build 10
+[20:26:50] [main/WARN] (Minecraft) Removed resource pack Fabric Mods from options because it doesn't seem to exist anymore
+[20:26:51] [main/INFO] (Minecraft) Narrator library for x64 successfully loaded
+[20:26:52] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[20:26:54] [main/INFO] (Minecraft) OpenAL initialized.
+[20:26:54] [main/INFO] (Minecraft) Sound engine started
+[20:26:54] [main/INFO] (Minecraft) Created: 1024x512 textures-atlas
+[20:26:55] [main/INFO] (Minecraft) Created: 256x256 textures/particle-atlas
+[20:26:55] [main/INFO] (Minecraft) Created: 256x256 textures/painting-atlas
+[20:26:55] [main/INFO] (Minecraft) Created: 256x128 textures/mob_effect-atlas
+[20:27:05] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:27:05] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:27:05] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:27:05] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:27:05] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:27:05] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.14.4
+[20:27:05] [Server thread/INFO] (Minecraft) Generating keypair
+[20:27:05] [Server thread/INFO] (Minecraft) [fabric-registry-sync] Loaded registry data [file 1/4]
+[20:27:05] [Server thread/INFO] (Minecraft) Found new data pack fabric/elemental_tools, loading it automatically
+[20:27:05] [Server thread/INFO] (Minecraft) Found new data pack fabric/fabric-mining-levels-v0, loading it automatically
+[20:27:05] [Server thread/INFO] (Minecraft) Found new data pack vanilla, loading it automatically
+[20:27:05] [Server thread/INFO] (Minecraft) Reloading ResourceManager: Default, elemental_tools, Fabric Mining Levels (v0)
+[20:27:06] [Server thread/INFO] (Minecraft) Loaded 6 recipes
+[20:27:06] [Server thread/INFO] (Minecraft) Loaded 811 advancements
+[20:27:09] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[20:27:09] [main/INFO] (Minecraft) Preparing spawn area: 0%
+[20:27:09] [main/INFO] (Minecraft) Preparing spawn area: 0%
+[20:27:10] [main/INFO] (Minecraft) Preparing spawn area: 4%
+[20:27:10] [main/INFO] (Minecraft) Preparing spawn area: 11%
+[20:27:11] [main/INFO] (Minecraft) Preparing spawn area: 17%
+[20:27:11] [main/INFO] (Minecraft) Preparing spawn area: 27%
+[20:27:12] [main/INFO] (Minecraft) Preparing spawn area: 34%
+[20:27:12] [main/INFO] (Minecraft) Preparing spawn area: 43%
+[20:27:13] [main/INFO] (Minecraft) Preparing spawn area: 51%
+[20:27:13] [main/INFO] (Minecraft) Preparing spawn area: 58%
+[20:27:14] [main/INFO] (Minecraft) Preparing spawn area: 67%
+[20:27:14] [main/INFO] (Minecraft) Preparing spawn area: 74%
+[20:27:15] [main/INFO] (Minecraft) Preparing spawn area: 83%
+[20:27:15] [main/INFO] (Minecraft) Preparing spawn area: 90%
+[20:27:16] [main/INFO] (Minecraft) Time elapsed: 6933 ms
+[20:27:17] [Server thread/INFO] (Minecraft) Player878[local:E:4e5cacce] logged in with entity id 299 at (213.5, 63.0, -12.5)
+[20:27:17] [Server thread/INFO] (Minecraft) Player878 joined the game
+[20:27:18] [main/INFO] (Minecraft) Loaded 0 advancements
+[20:27:18] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[20:27:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/minecraft:overworld
+[20:27:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/minecraft:the_nether
+[20:27:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/minecraft:the_end
+[20:27:20] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2232ms or 44 ticks behind
+[20:27:25] [main/INFO] (Minecraft) Loaded 13 advancements
+[20:27:25] [main/INFO] (Minecraft) Loaded 17 advancements
+[20:27:33] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[20:27:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/minecraft:overworld
+[20:27:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/minecraft:the_nether
+[20:27:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/minecraft:the_end
+[20:27:34] [Server thread/INFO] (Minecraft) Player878 lost connection: Disconnected
+[20:27:34] [Server thread/INFO] (Minecraft) Player878 left the game
+[20:27:34] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[20:27:34] [Server thread/INFO] (Minecraft) Stopping server
+[20:27:34] [Server thread/INFO] (Minecraft) Saving players
+[20:27:34] [Server thread/INFO] (Minecraft) Saving worlds
+[20:27:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/minecraft:overworld
+[20:27:34] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
+[20:27:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/minecraft:the_nether
+[20:27:34] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:27:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/minecraft:the_end
+[20:27:34] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:27:34] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
+[20:27:34] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:27:34] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:27:35] [main/INFO] (Minecraft) Stopping!

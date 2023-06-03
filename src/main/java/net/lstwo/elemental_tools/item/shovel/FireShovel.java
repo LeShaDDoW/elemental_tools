@@ -3,7 +3,7 @@ package net.lstwo.elemental_tools.item.shovel;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.inventory.SimpleInventory;
+import net.minecraft.inventory.BasicInventory;
 import net.minecraft.item.*;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.recipe.RecipeType;
@@ -56,7 +56,7 @@ public class FireShovel extends ShovelItem {
     }
 
     private ItemStack getSmeltedResult(World world, ItemStack itemStack) {
-        Optional<SmeltingRecipe> recipe = world.getRecipeManager().getFirstMatch(RecipeType.SMELTING, new SimpleInventory(itemStack), world);
+        Optional<SmeltingRecipe> recipe = world.getRecipeManager().getFirstMatch(RecipeType.SMELTING, new BasicInventory(itemStack), world);
         if (recipe.isPresent()) {
             ItemStack result = recipe.get().getOutput().copy();
             if (result.getItem() instanceof BlockItem) {

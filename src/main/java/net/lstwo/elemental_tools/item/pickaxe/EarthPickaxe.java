@@ -24,7 +24,7 @@ public class EarthPickaxe extends PickaxeItem {
     }
 
     @Override
-    public float getMiningSpeedMultiplier(ItemStack stack, BlockState state) {
+    public float getMiningSpeed(ItemStack stack, BlockState state) {
         Block block = state.getBlock();
         if (block == Blocks.STONE || block == Blocks.DIRT || block == Blocks.GRASS_BLOCK || block == Blocks.GRANITE || block == Blocks.DIORITE
             || block == Blocks.ANDESITE) {

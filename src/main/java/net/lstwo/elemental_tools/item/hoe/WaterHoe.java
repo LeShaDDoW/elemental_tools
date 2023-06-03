@@ -20,7 +20,7 @@ import java.util.List;
 
 public class WaterHoe extends HoeItem {
     public WaterHoe(ToolMaterial material) {
-        super(material, 5, -2.8F, new Settings().group(ItemGroup.TOOLS).maxCount(1).maxDamage(768)
+        super(material, 5, new Settings().group(ItemGroup.TOOLS).maxCount(1).maxDamage(768)
                 .rarity(Rarity.UNCOMMON));
     }
 
