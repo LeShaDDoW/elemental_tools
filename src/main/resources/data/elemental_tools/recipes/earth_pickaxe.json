@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:coarse_dirt"
+    },
+    "Z": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "elemental_pickaxes:earth_pickaxe"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:feather"
+    },
+    "Z": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "item": "elemental_pickaxes:air_pickaxe"
+  }
+}

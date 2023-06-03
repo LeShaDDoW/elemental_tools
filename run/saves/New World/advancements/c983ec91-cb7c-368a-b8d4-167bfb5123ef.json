@@ -1,0 +1,63 @@
+{
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2023-06-03 15:24:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2023-06-03 15:24:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2023-06-03 15:24:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2023-06-03 15:24:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2023-06-03 15:24:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2023-06-03 15:24:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2023-06-03 15:24:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-06-03 15:24:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2023-06-03 15:24:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2023-06-03 15:24:08 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

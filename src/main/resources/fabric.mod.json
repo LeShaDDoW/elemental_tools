@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "elemental_tools",
+  "version": "${version}",
+  "name": "elemental_tools",
+  "description": "adds ",
+  "authors": [
+    "leshaddow2"
+  ],
+  "contact": {
+    "repo": "https://github.com/leshaddow/elemental_tools"
+  },
+  "license": "MIT",
+  "icon": "assets/elemental_tools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.lstwo.elemental_tools.client.ElementalToolsClient"
+    ],
+    "main": [
+      "net.lstwo.elemental_tools.ElementalTools"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "Z": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "elemental_pickaxes:water_pickaxe"
+  }
+}
