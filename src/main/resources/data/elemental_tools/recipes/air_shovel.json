@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XZX",
-    " # ",
+    " X ",
+    " Z ",
     " # "
   ],
   "key": {
@@ -10,13 +10,13 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:feather"
     },
     "Z": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:phantom_membrane"
     }
   },
   "result": {
-    "item": "elemental_tools:fire_pickaxe"
+    "item": "elemental_tools:air_shovel"
   }
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XZX",
-    " # ",
+    " X ",
+    " Z ",
     " # "
   ],
   "key": {
@@ -17,6 +17,6 @@
     }
   },
   "result": {
-    "item": "elemental_tools:fire_pickaxe"
+    "item": "elemental_tools:fire_shovel"
   }
 }

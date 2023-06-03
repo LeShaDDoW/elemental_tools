@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XZX",
-    " # ",
+    "XZ ",
+    "X# ",
     " # "
   ],
   "key": {
@@ -10,13 +10,13 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:coarse_dirt"
     },
     "Z": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:diamond"
     }
   },
   "result": {
-    "item": "elemental_tools:fire_pickaxe"
+    "item": "elemental_tools:earth_axe"
   }
 }

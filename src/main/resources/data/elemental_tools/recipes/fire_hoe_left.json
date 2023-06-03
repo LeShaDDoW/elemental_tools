@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XZX",
+    "XZ ",
     " # ",
     " # "
   ],
@@ -17,6 +17,6 @@
     }
   },
   "result": {
-    "item": "elemental_tools:fire_pickaxe"
+    "item": "elemental_tools:fire_hoe"
   }
 }

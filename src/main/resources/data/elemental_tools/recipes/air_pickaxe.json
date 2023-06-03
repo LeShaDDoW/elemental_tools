@@ -13,10 +13,10 @@
       "item": "minecraft:feather"
     },
     "Z": {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:phantom_membrane"
     }
   },
   "result": {
-    "item": "elemental_pickaxes:air_pickaxe"
+    "item": "elemental_tools:air_pickaxe"
   }
 }
