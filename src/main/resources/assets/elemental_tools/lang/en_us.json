@@ -3,5 +3,10 @@
   "item.elemental_tools.water_pickaxe": "Water Pickaxe",
   "item.elemental_tools.air_pickaxe": "Air Pickaxe",
   "item.elemental_tools.earth_pickaxe": "Earth Pickaxe",
-  "item.elemental_tools.elemental_pickaxe": "Elemental Pickaxe"
+  "item.elemental_tools.elemental_pickaxe": "Elemental Pickaxe",
+
+  "item.elemental_tools.fire_axe": "Fire Axe",
+  "item.elemental_tools.water_axe": "Water Axe",
+  "item.elemental_tools.air_axe": "Air Axe",
+  "item.elemental_tools.earth_axe": "Earth Axe"
 }
