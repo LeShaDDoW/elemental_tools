@@ -26,7 +26,7 @@ public class EarthShovel extends ShovelItem {
         Block block = state.getBlock();
         if (block == Blocks.OAK_PLANKS || block == Blocks.SPRUCE_PLANKS || block == Blocks.DARK_OAK_PLANKS || block == Blocks.BIRCH_PLANKS ||
                 block == Blocks.ACACIA_PLANKS || block == Blocks.JUNGLE_PLANKS
-                || block == Blocks.DIRT || block == Blocks.GRASS_BLOCK) {
+                || block == Blocks.DIRT || block == Blocks.GRASS_BLOCK || block == Blocks.WARPED_PLANKS || block == Blocks.CRIMSON_PLANKS) {
             return INSTANT_BREAK_SPEED;
         }
         return DEFAULT_BREAK_SPEED;

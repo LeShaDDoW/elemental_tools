@@ -27,7 +27,7 @@ public class EarthPickaxe extends PickaxeItem {
     public float getMiningSpeedMultiplier(ItemStack stack, BlockState state) {
         Block block = state.getBlock();
         if (block == Blocks.STONE || block == Blocks.DIRT || block == Blocks.GRASS_BLOCK || block == Blocks.GRANITE || block == Blocks.DIORITE
-            || block == Blocks.ANDESITE) {
+            || block == Blocks.ANDESITE || block == Blocks.WARPED_PLANKS || block == Blocks.CRIMSON_PLANKS) {
             return INSTANT_BREAK_SPEED;
         }
         return DEFAULT_BREAK_SPEED;
