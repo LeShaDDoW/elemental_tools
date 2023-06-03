@@ -48,7 +48,7 @@ public class WaterPickaxe extends PickaxeItem {
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
         if (selected && entity instanceof PlayerEntity) {
             PlayerEntity player = (PlayerEntity) entity;
-            boolean isUnderwater = player.isSubmergedInWater();
+            boolean isUnderwater = player.isInWater();
             if (isUnderwater) {
                 player.addStatusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 1, 0, false, false));
             }
