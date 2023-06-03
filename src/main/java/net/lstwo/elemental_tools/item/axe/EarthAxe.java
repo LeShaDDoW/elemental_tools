@@ -15,6 +15,7 @@ import net.minecraft.world.World;
 public class EarthAxe extends AxeItem {
     private static final float INSTANT_BREAK_SPEED = 50;
     private static final float DEFAULT_BREAK_SPEED = 7;
+    int i = 0;
 
     public EarthAxe(ToolMaterial material) {
         super(material, 10, -2.2F, new Settings().group(ItemGroup.TOOLS).maxCount(1).maxDamage(1928)
