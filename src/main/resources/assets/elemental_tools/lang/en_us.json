@@ -12,5 +12,10 @@
   "item.elemental_tools.fire_shovel": "Fire Shovel",
   "item.elemental_tools.water_shovel": "Water Shovel",
   "item.elemental_tools.air_shovel": "Air Shovel",
-  "item.elemental_tools.earth_shovel": "Earth Shovel"
+  "item.elemental_tools.earth_shovel": "Earth Shovel",
+
+  "item.elemental_tools.fire_hoe": "Fire Hoe",
+  "item.elemental_tools.water_hoe": "Water Hoe",
+  "item.elemental_tools.air_hoe": "Air Hoe",
+  "item.elemental_tools.earth_hoe": "Earth Hoe"
 }
